@@ -19,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Start your development with a Dashboard for Bootstrap 4.">
   <meta name="author" content="Creative Tim">
-  <title>GCU SYAMRABU</title>
+  <title>RSUD SYAMRABU</title>
   <!-- Extra details for Live View on GitHub Pages -->
   <!-- Canonical SEO -->
   <link rel="canonical" href="#" />
@@ -107,7 +107,7 @@
         <hr class="d-lg-none" />
         <ul class="navbar-nav align-items-lg-center ml-lg-auto">
           <li class="nav-item d-none d-lg-block ml-lg-4">
-            <a href="<?= base_url('login')?>" target="_blank" class="btn btn-neutral btn-icon">
+            <a href="http://localhost/gcu_syamrabu/" target="_blank" class="btn btn-neutral btn-icon">
               <span class="btn-inner--icon">
                 <i class="fas fa-child mr-2"></i>
               </span>
@@ -115,7 +115,7 @@
             </a>
           </li>
           <li class="nav-item d-none d-lg-block ml-lg-4">
-            <a href="<?= base_url('login_psikologi')?>" target="_blank" class="btn btn-neutral btn-icon">
+            <a href="http://localhost/psikologi_syamrabu/" target="_blank" class="btn btn-neutral btn-icon">
               <span class="btn-inner--icon">
                 <i class="fas fa-brain mr-2"></i>
               </span>
@@ -338,7 +338,7 @@
     //   rule = 0;
     // }
     $.ajax({
-      url: '<?= base_url() ?>home/tambah_data',
+      url: 'home/tambah_data',
       method: 'post',
       data: {
         nama: nama,
