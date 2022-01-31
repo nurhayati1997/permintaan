@@ -82,9 +82,6 @@
   <!-- Navabr -->
   <nav id="navbar-main" class="navbar navbar-horizontal navbar-main navbar-expand-lg navbar-dark bg-primary">
     <div class="container">
-      <a class="navbar-brand" href="pages/dashboards/dashboard.html">
-        <img src="assets_admin/logo.png">
-      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -105,7 +102,7 @@
           </div>
         </div>
         <hr class="d-lg-none" />
-        <ul class="navbar-nav align-items-lg-center ml-lg-auto">
+        <!-- <ul class="navbar-nav align-items-lg-center ml-lg-auto">
           <li class="nav-item d-none d-lg-block ml-lg-4">
             <a href="http://localhost/gcu_syamrabu/" target="_blank" class="btn btn-neutral btn-icon">
               <span class="btn-inner--icon">
@@ -122,7 +119,7 @@
               <span class="nav-link-inner--text">PSIKOLOGI / PSIKIATRI</span>
             </a>
           </li>
-        </ul>
+        </ul> -->
       </div>
     </div>
   </nav>
