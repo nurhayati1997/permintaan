@@ -80,64 +80,21 @@
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NKDMSK6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <!-- Navabr -->
-  <nav id="navbar-main" class="navbar navbar-horizontal navbar-main navbar-expand-lg navbar-dark bg-primary">
-    <div class="container">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="navbar-collapse navbar-custom-collapse collapse" id="navbar-collapse">
-        <div class="navbar-collapse-header">
-          <div class="row">
-            <div class="col-6 collapse-brand">
-              <a href="pages/dashboards/dashboard.html">
-                <!-- <img src="assets/img/brand/blue.png"> -->
-              </a>
-            </div>
-            <div class="col-6 collapse-close">
-              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span></span>
-                <span></span>
-              </button>
-            </div>
-          </div>
-        </div>
-        <hr class="d-lg-none" />
-        <!-- <ul class="navbar-nav align-items-lg-center ml-lg-auto">
-          <li class="nav-item d-none d-lg-block ml-lg-4">
-            <a href="http://localhost/gcu_syamrabu/" target="_blank" class="btn btn-neutral btn-icon">
-              <span class="btn-inner--icon">
-                <i class="fas fa-child mr-2"></i>
-              </span>
-              <span class="nav-link-inner--text">GCU</span>
-            </a>
-          </li>
-          <li class="nav-item d-none d-lg-block ml-lg-4">
-            <a href="http://localhost/psikologi_syamrabu/" target="_blank" class="btn btn-neutral btn-icon">
-              <span class="btn-inner--icon">
-                <i class="fas fa-brain mr-2"></i>
-              </span>
-              <span class="nav-link-inner--text">PSIKOLOGI / PSIKIATRI</span>
-            </a>
-          </li>
-        </ul> -->
-      </div>
-    </div>
-  </nav>
+
   <!-- Main content -->
   <div class="main-content">
     <!-- Header -->
-    <div class="header bg-primary pt-5 pb-7">
+    <div class="header bg-primary">
       <div class="container">
         <div class="header-body">
-          <div class="row align-items-center">
-            <div class="col-lg-4">
-              <div class="pr-5">
+          <div class="row">
+            <div class="col-lg-12">
                 <h1 class="display-2 text-white font-weight-bold mb-0">RSUD SYAMRABU BANGKALAN</h1>
-                <h2 class="display-4 text-white font-weight-light">Permintaan Surat Keterangan Jasmani & Pemeriksaan Jiwa <br> {POLI GCU & POLI PSIKOLOGI}</h2>
-                <p class="text-white mt-4">Silahkan Mengisi Data Berikut Untuk Melengkapi data</p>
-              </div>
+                <h2 class="display-4 text-white font-weight-light">Permintaan Surat Keterangan Jasmani & Pemeriksaan Jiwa</h2>
             </div>
-            <div class="col-lg-8">
+          </div>
+          <div class="row align-items-center">
+            <div class="col-lg-12">
               <div class="row pr-5">
                 <div class="col-md-12">
                   <div class="card card-lift--hover shadow border-0">
@@ -156,13 +113,23 @@
                       
                     <form role="form">
                       <div class="row">
-                                <div class="col-12">
+                                <div class="col-6">
                                   <div class="form-group mb-3">
                                     <div class="input-group input-group-merge input-group-alternative">
                                       <div class="input-group-prepend">
                                         <span class="input-group-text"><i class="ni ni-badge"></i></span>
                                       </div>
                                       <input class="form-control" name="nama" id="nama" placeholder="Nama" type="text">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-6">
+                                  <div class="form-group mb-3">
+                                    <div class="input-group input-group-merge input-group-alternative">
+                                      <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="ni ni-badge"></i></span>
+                                      </div>
+                                      <input class="form-control" name="pendidikan_pasien_gcu" id="pendidikan_pasien_gcu" placeholder="Pendidikan Terakhir (ex. SI PPKN)" type="text">
                                     </div>
                                   </div>
                                 </div>
@@ -238,7 +205,7 @@
                                     </div>
                                   </div>
                                 </div>
-                                <div class="col-3">
+                                <div class="col-6">
                                   <div class="form-group mb-3">
                                     <div class="input-group input-group-merge input-group-alternative">
                                       <div class="input-group-prepend">
@@ -254,17 +221,17 @@
                                       <div class="input-group-prepend">
                                         <span class="input-group-text"><i class="ni ni-badge"></i></span>
                                       </div>
-                                      <input class="form-control" name="pendidikan_pasien_gcu" id="pendidikan_pasien_gcu" placeholder="Pendidikan Terakhir (ex. SI PPKN)" type="text">
+                                      <input class="form-control" name="tb_pasien_gcu" id="tb_pasien_gcu" placeholder="Tinggi Badan" type="text">
                                     </div>
                                   </div>
                                 </div>
-                                <div class="col-3">
+                                <div class="col-12">
                                   <div class="form-group mb-3">
                                     <div class="input-group input-group-merge input-group-alternative">
                                       <div class="input-group-prepend">
                                         <span class="input-group-text"><i class="ni ni-badge"></i></span>
                                       </div>
-                                      <input class="form-control" name="tb_pasien_gcu" id="tb_pasien_gcu" placeholder="Tinggi Badan" type="text">
+                                      <input class="form-control" name="keperluan_pasien_gcu" id="keperluan_pasien_gcu" placeholder="Keperluan Anda (ex. PEMBERKASAN CPNS)" type="text">
                                     </div>
                                   </div>
                                 </div>
@@ -325,6 +292,7 @@
     var ttl_pasien_gcu = $("#ttl_pasien_gcu").val()
     var bb_pasien_gcu = $("#bb_pasien_gcu").val()
     var tb_pasien_gcu = $("#tb_pasien_gcu").val()
+    var keperluan_pasien_gcu = $("#keperluan_pasien_gcu").val()
     var kecamatan_pasien_gcu = $("#kecamatan_pasien_gcu").val()
     var kabupaten_pasien_gcu = $("#kabupaten_pasien_gcu").val()
     var alamat_pasien_gcu = $("#alamat_pasien_gcu").val()
@@ -343,6 +311,7 @@
         ttl_pasien_gcu: ttl_pasien_gcu,
         bb_pasien_gcu: bb_pasien_gcu,
         tb_pasien_gcu: tb_pasien_gcu,
+        keperluan_pasien_gcu: keperluan_pasien_gcu,
         kecamatan_pasien_gcu: kecamatan_pasien_gcu,
         kabupaten_pasien_gcu: kabupaten_pasien_gcu,
         jk_pasien_gcu: jk_pasien_gcu,
@@ -360,6 +329,7 @@
           $("#ttl_pasien_gcu").val("")
           $("#bb_pasien_gcu").val("")
           $("#tb_pasien_gcu").val("")
+          $("#keperluan_pasien_gcu").val("")
           $("#kecamatan_pasien_gcu").val("")
           $("#kabupaten_pasien_gcu").val("")
           $("#alamat_pasien_gcu").val("")

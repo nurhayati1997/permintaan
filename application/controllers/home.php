@@ -37,6 +37,7 @@ class home extends CI_Controller
 			"kabupaten_pasien_gcu" => $this->input->post("kabupaten_pasien_gcu", TRUE),
 			"alamat_pasien_gcu"=>$this->input->post("alamat_pasien_gcu", TRUE),
 			"jk_pasien_gcu"=>$this->input->post("jk_pasien_gcu", TRUE),
+			"keperluan_pasien_gcu"=>$this->input->post("keperluan_pasien_gcu", TRUE),
 			"pernikahan_pasien_gcu"=>$this->input->post("pernikahan_pasien_gcu", TRUE),
 			"pendidikan_pasien_gcu"=>$this->input->post("pendidikan_pasien_gcu", TRUE)
 		];
