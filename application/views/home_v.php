@@ -113,7 +113,7 @@
                       
                     <form role="form">
                       <div class="row">
-                                <div class="col-6">
+                                <div class="col-12">
                                   <div class="form-group mb-3">
                                     <div class="input-group input-group-merge input-group-alternative">
                                       <div class="input-group-prepend">
@@ -123,17 +123,14 @@
                                     </div>
                                   </div>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12">
                                   <div class="form-group mb-3">
-                                    <div class="input-group input-group-merge input-group-alternative">
-                                      <div class="input-group-prepend">
-                                        <span class="input-group-text"><i class="ni ni-badge"></i></span>
-                                      </div>
-                                      <input class="form-control" name="pendidikan_pasien_gcu" id="pendidikan_pasien_gcu" placeholder="Pendidikan Terakhir (ex. SI PPKN)" type="text">
-                                    </div>
+                                      <label class="form-control-label" for="pendidikan_pasien_gcu">Pendidikan Terakhir (ex. S1 PPKN)</label>
+                                      <textarea class="form-control" id="pendidikan_pasien_gcu" rows="3"></textarea>
+                                      <!-- <input class="form-control" name="pendidikan_pasien_gcu" id="pendidikan_pasien_gcu" placeholder="Pendidikan Terakhir (ex. SI PPKN)" type="text"> -->
                                   </div>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12">
                                   <div class="form-group mb-3">
                                     <!-- <input id="idUser" type="hidden"> -->
                                     <!-- <label class="form-control-label" for="exampleFormControlSelect1">Pendengaran</label> -->
@@ -144,7 +141,7 @@
                                     </select>
                                   </div>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12">
                                   <div class="form-group mb-3">
                                     <!-- <input id="idUser" type="hidden"> -->
                                     <!-- <label class="form-control-label" for="exampleFormControlSelect1">Pendengaran</label> -->
@@ -155,7 +152,7 @@
                                     </select>
                                   </div>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12">
                                   <div class="form-group mb-3">
                                     <div class="input-group input-group-merge input-group-alternative">
                                       <div class="input-group-prepend">
@@ -165,8 +162,9 @@
                                     </div>
                                   </div>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12">
                                   <div class="form-group mb-3">
+                                    <label class="form-control-label" for="ttl_pasien_gcu">Tanggal Lahir</label>
                                     <div class="input-group input-group-merge input-group-alternative">
                                       <div class="input-group-prepend">
                                         <span class="input-group-text"><i class="ni ni-badge"></i></span>
@@ -185,7 +183,7 @@
                                     </div>
                                   </div>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12">
                                   <div class="form-group mb-3">
                                     <div class="input-group input-group-merge input-group-alternative">
                                       <div class="input-group-prepend">
@@ -195,7 +193,7 @@
                                     </div>
                                   </div>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12">
                                   <div class="form-group mb-3">
                                     <div class="input-group input-group-merge input-group-alternative">
                                       <div class="input-group-prepend">
@@ -205,7 +203,7 @@
                                     </div>
                                   </div>
                                 </div>
-                                <div class="col-6">
+                                <!-- <div class="col-6">
                                   <div class="form-group mb-3">
                                     <div class="input-group input-group-merge input-group-alternative">
                                       <div class="input-group-prepend">
@@ -224,6 +222,18 @@
                                       <input class="form-control" name="tb_pasien_gcu" id="tb_pasien_gcu" placeholder="Tinggi Badan" type="text">
                                     </div>
                                   </div>
+                                </div> -->
+                                <div class="col-12">
+                                  <div class="form-group mb-3">
+                                    <label class="form-control-label" for="keperluan_pasien_gcu">Keperluan Pasien</label>
+                                    <textarea class="form-control" id="keperluan_pasien_gcu" rows="3"></textarea>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="form-group mb-3">
+                                    <label class="form-control-label" for="atas_permintaan_ps">Atas Permintaan tertulis dari</label>
+                                    <textarea class="form-control" id="atas_permintaan_ps" rows="3"></textarea>
+                                  </div>
                                 </div>
                                 <div class="col-12">
                                   <div class="form-group mb-3">
@@ -231,8 +241,34 @@
                                       <div class="input-group-prepend">
                                         <span class="input-group-text"><i class="ni ni-badge"></i></span>
                                       </div>
-                                      <input class="form-control" name="keperluan_pasien_gcu" id="keperluan_pasien_gcu" placeholder="Keperluan Anda (ex. PEMBERKASAN CPNS)" type="text">
+                                      <input class="form-control" name="nama_atas_permintaan_ps" id="nama_atas_permintaan_ps" placeholder="Nama Pejabat" type="text">
                                     </div>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="form-group mb-3">
+                                    <div class="input-group input-group-merge input-group-alternative">
+                                      <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="ni ni-badge"></i></span>
+                                      </div>
+                                      <input class="form-control" name="jabatan_atas_permintaan_ps" id="jabatan_atas_permintaan_ps" placeholder="Jabatan" type="text">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="form-group mb-3">
+                                    <div class="input-group input-group-merge input-group-alternative">
+                                      <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="ni ni-badge"></i></span>
+                                      </div>
+                                      <input class="form-control" name="no_surat_atas_permintaan_ps" id="no_surat_atas_permintaan_ps" placeholder="No Surat Permintaan" type="text">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="form-group mb-3">
+                                    <label class="form-control-label" for="perihal_atas_permintaan_ps">Perihal Permintaan</label>
+                                    <textarea class="form-control" id="perihal_atas_permintaan_ps" rows="3"></textarea>
                                   </div>
                                 </div>
                                 <div class="badge badge-danger" id="pesanErrorTambah"></div>
@@ -290,8 +326,8 @@
     var nama = $("#nama").val()
     var tempat_lahir = $("#tempat_lahir").val()
     var ttl_pasien_gcu = $("#ttl_pasien_gcu").val()
-    var bb_pasien_gcu = $("#bb_pasien_gcu").val()
-    var tb_pasien_gcu = $("#tb_pasien_gcu").val()
+    // var bb_pasien_gcu = $("#bb_pasien_gcu").val()
+    // var tb_pasien_gcu = $("#tb_pasien_gcu").val()
     var keperluan_pasien_gcu = $("#keperluan_pasien_gcu").val()
     var kecamatan_pasien_gcu = $("#kecamatan_pasien_gcu").val()
     var kabupaten_pasien_gcu = $("#kabupaten_pasien_gcu").val()
@@ -299,6 +335,11 @@
     var jk_pasien_gcu = $("#jk_pasien_gcu").val()
     var pernikahan_pasien_gcu = $("#pernikahan_pasien_gcu").val()
     var pendidikan_pasien_gcu = $("#pendidikan_pasien_gcu").val()
+    var atas_permintaan_ps = $("#atas_permintaan_ps").val()
+    var nama_atas_permintaan_ps = $("#nama_atas_permintaan_ps").val()
+    var jabatan_atas_permintaan_ps = $("#jabatan_atas_permintaan_ps").val()
+    var no_surat_atas_permintaan_ps = $("#no_surat_atas_permintaan_ps").val()
+    var perihal_atas_permintaan_ps = $("#perihal_atas_permintaan_ps").val()
     // if (rule == null) {
     //   rule = 0;
     // }
@@ -309,14 +350,19 @@
         nama: nama,
         tempat_lahir: tempat_lahir,
         ttl_pasien_gcu: ttl_pasien_gcu,
-        bb_pasien_gcu: bb_pasien_gcu,
-        tb_pasien_gcu: tb_pasien_gcu,
+        // bb_pasien_gcu: bb_pasien_gcu,
+        // tb_pasien_gcu: tb_pasien_gcu,
         keperluan_pasien_gcu: keperluan_pasien_gcu,
         kecamatan_pasien_gcu: kecamatan_pasien_gcu,
         kabupaten_pasien_gcu: kabupaten_pasien_gcu,
         jk_pasien_gcu: jk_pasien_gcu,
         pernikahan_pasien_gcu: pernikahan_pasien_gcu,
         pendidikan_pasien_gcu: pendidikan_pasien_gcu,
+        atas_permintaan_ps: atas_permintaan_ps,
+        nama_atas_permintaan_ps: nama_atas_permintaan_ps,
+        jabatan_atas_permintaan_ps: jabatan_atas_permintaan_ps,
+        no_surat_atas_permintaan_ps: no_surat_atas_permintaan_ps,
+        perihal_atas_permintaan_ps: perihal_atas_permintaan_ps,
         alamat_pasien_gcu: alamat_pasien_gcu
       },
       dataType: 'json',
@@ -327,8 +373,8 @@
           $("#nama").val("")
           $("#tempat_lahir").val("")
           $("#ttl_pasien_gcu").val("")
-          $("#bb_pasien_gcu").val("")
-          $("#tb_pasien_gcu").val("")
+          // $("#bb_pasien_gcu").val("")
+          // $("#tb_pasien_gcu").val("")
           $("#keperluan_pasien_gcu").val("")
           $("#kecamatan_pasien_gcu").val("")
           $("#kabupaten_pasien_gcu").val("")
@@ -336,6 +382,11 @@
           $("#jk_pasien_gcu").val("")
           $("#pernikahan_pasien_gcu").val("")
           $("#pendidikan_pasien_gcu").val("")
+          $("#atas_permintaan_ps").val("")
+          $("#nama_atas_permintaan_ps").val("")
+          $("#jabatan_atas_permintaan_ps").val("")
+          $("#no_surat_atas_permintaan_ps").val("")
+          $("#perihal_atas_permintaan_ps").val("")
           $('#pesanErroTambah').html("")
         // } else {
           // data = data.replace("<p>", "");

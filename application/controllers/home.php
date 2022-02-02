@@ -31,15 +31,20 @@ class home extends CI_Controller
 			"nama" => $this->input->post("nama", TRUE),
 			"tempat_lahir" => $this->input->post("tempat_lahir", TRUE),
 			"ttl_pasien_gcu" => $this->input->post("ttl_pasien_gcu", TRUE),
-			"bb_pasien_gcu" => $this->input->post("bb_pasien_gcu", TRUE),
-			"tb_pasien_gcu" => $this->input->post("tb_pasien_gcu", TRUE),
+			// "bb_pasien_gcu" => $this->input->post("bb_pasien_gcu", TRUE),
+			// "tb_pasien_gcu" => $this->input->post("tb_pasien_gcu", TRUE),
 			"kecamatan_pasien_gcu" => $this->input->post("kecamatan_pasien_gcu", TRUE),
 			"kabupaten_pasien_gcu" => $this->input->post("kabupaten_pasien_gcu", TRUE),
 			"alamat_pasien_gcu"=>$this->input->post("alamat_pasien_gcu", TRUE),
 			"jk_pasien_gcu"=>$this->input->post("jk_pasien_gcu", TRUE),
 			"keperluan_pasien_gcu"=>$this->input->post("keperluan_pasien_gcu", TRUE),
-			"pernikahan_pasien_gcu"=>$this->input->post("pernikahan_pasien_gcu", TRUE),
-			"pendidikan_pasien_gcu"=>$this->input->post("pendidikan_pasien_gcu", TRUE)
+			"atas_permintaan_ps"=>$this->input->post("atas_permintaan_ps", TRUE),
+			"nama_atas_permintaan_ps"=>$this->input->post("nama_atas_permintaan_ps", TRUE),
+			"jabatan_atas_permintaan_ps"=>$this->input->post("jabatan_atas_permintaan_ps", TRUE),
+			"no_surat_atas_permintaan_ps"=>$this->input->post("no_surat_atas_permintaan_ps", TRUE),
+			"perihal_atas_permintaan_ps"=>$this->input->post("perihal_atas_permintaan_ps", TRUE),
+			"pendidikan_pasien_gcu"=>$this->input->post("pendidikan_pasien_gcu", TRUE),
+			"pernikahan_pasien_gcu"=>$this->input->post("pernikahan_pasien_gcu", TRUE)
 		];
 		$this->db_model->insert('gcu_syamrabu', $data);
 		echo json_encode($data);
