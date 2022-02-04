@@ -394,7 +394,8 @@
           $('#pesanErrorTambah').html(data)
         // }
 
-        $("#tombolTambah").html('Tambah')
+        $("#tombolTambah").html('Data Sudah Tersimpan, Mohon Refresh Kembali')
+        // $("#tombolTambah").html('Tambah')
         // $("#modalTambah").modal('hide');
           // tampilkan();
         // $("#tombolTambah").html('Tambah')
